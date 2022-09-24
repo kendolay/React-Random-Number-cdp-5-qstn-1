@@ -1,0 +1,85 @@
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  height: 100;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  background-color: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e4ebf3;
+  box-shadow: 0px 4px 16px 0px #eaebed;
+  padding: 36px;
+}
+
+.heading {
+  color: #0b69ff;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  text-align: center;
+}
+
+.description {
+  color: #333333;
+  font-size: 14px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.button {
+  background-color: #0b69ff;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #e4ebf3;
+  border: none;
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-top: 14px;
+  outline: none;
+  cursor: pointer;
+}
+
+.random-text {
+  color: #0b69ff;
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 24px;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    width: 35%;
+    max-width: 500px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .random-text {
+    font-size: 48px;
+  }
+}
